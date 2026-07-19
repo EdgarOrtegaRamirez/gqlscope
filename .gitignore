@@ -1,0 +1,12 @@
+# Build artifacts
+gqlscope
+*.exe
+*.exe~
+dll.exe
+dll.exe~
+so
+so.
+dylib
+
+# Test binary
+*.test
