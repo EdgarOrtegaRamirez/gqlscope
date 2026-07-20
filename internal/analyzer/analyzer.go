@@ -12,7 +12,7 @@ import (
 // Analyze returns schema information for reporting.
 func Analyze(s *parser.Schema) reporter.SchemaInfo {
 	info := reporter.SchemaInfo{
-		TypeCount:      len(s.Types),
+		TypeCount:       len(s.Types),
 		DeprecatedCount: 0,
 		TotalFields:     0,
 		TotalEnums:      0,

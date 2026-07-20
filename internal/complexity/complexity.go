@@ -16,12 +16,12 @@ type ComplexityConfig struct {
 
 // ComplexityResult holds the result of complexity analysis.
 type ComplexityResult struct {
-	TotalScore   float64
-	MaxDepth     int
-	FieldCount   int
-	ListFields   int
-	ArgCount     int
-	DeepFields   []FieldScore // Fields at or beyond max depth
+	TotalScore float64
+	MaxDepth   int
+	FieldCount int
+	ListFields int
+	ArgCount   int
+	DeepFields []FieldScore // Fields at or beyond max depth
 }
 
 // FieldScore represents the complexity of a single field.

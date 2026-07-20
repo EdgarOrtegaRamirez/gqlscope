@@ -18,20 +18,20 @@ const (
 
 // SchemaInfo holds schema statistics.
 type SchemaInfo struct {
-	TypeCount       int      `json:"type_count"`
-	TypeNames       []string `json:"type_names"`
-	DeprecatedCount int      `json:"deprecated_count"`
-	DeprecatedFields []string `json:"deprecated_fields"`
-	DeprecatedEnums []string `json:"deprecated_enum_values"`
-	TotalFields     int      `json:"total_fields"`
-	TotalEnums      int      `json:"total_enum_values"`
-	HasQuery        bool     `json:"has_query"`
-	HasMutation     bool     `json:"has_mutation"`
-	HasSubscription bool     `json:"has_subscription"`
-	QueryCount      int      `json:"query_count"`
-	MutationCount   int      `json:"mutation_count"`
-	SubscriptionCount int    `json:"subscription_count"`
-	Directives      []string `json:"directives"`
+	TypeCount         int      `json:"type_count"`
+	TypeNames         []string `json:"type_names"`
+	DeprecatedCount   int      `json:"deprecated_count"`
+	DeprecatedFields  []string `json:"deprecated_fields"`
+	DeprecatedEnums   []string `json:"deprecated_enum_values"`
+	TotalFields       int      `json:"total_fields"`
+	TotalEnums        int      `json:"total_enum_values"`
+	HasQuery          bool     `json:"has_query"`
+	HasMutation       bool     `json:"has_mutation"`
+	HasSubscription   bool     `json:"has_subscription"`
+	QueryCount        int      `json:"query_count"`
+	MutationCount     int      `json:"mutation_count"`
+	SubscriptionCount int      `json:"subscription_count"`
+	Directives        []string `json:"directives"`
 }
 
 // QueryResult holds query analysis results.
